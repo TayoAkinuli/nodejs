@@ -21,12 +21,13 @@ nav {
 
 .search {
     height: 30px;
-    width: 300px;
+    width: 25%;
+    min-width: 90px;
 }
 
 .tee {
-    height: 29px;
-    width: 29px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: white;
     border: 1px solid white;
@@ -35,7 +36,7 @@ nav {
 
 .under-nav {
     width: 100%;
-    height: 60px;
+    height: 90px;
     background-color: gainsboro;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -44,28 +45,29 @@ nav {
 }
 
 .under-nav .box {
-    height: 35px;
+    height: 60px;
     width: 90%;
     background-color: darkgrey;
     margin: auto;
 }
 
 .cont1 {
-    height: 200px;
+    height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .cont1 .box1 {
     background-color: darkgrey;
-    height: 10px;
+    height: 100px;
     width: 95%;
     margin: 5px auto;
 }
 
 .cont1 .box1:nth-child(1) {
-    height: 60px;
+    height: 180px;
     width: 29%;
     margin: 30px auto;
 }
@@ -76,7 +78,7 @@ nav {
 
 .cont2 {
     background-color: gainsboro;
-    height: 300px;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -84,7 +86,7 @@ nav {
 }
 
 .cont2 .box2 {
-    height: 250px;
+    height: 450px;
     width: 95%;
     background-color: darkgrey;
 }
@@ -92,7 +94,7 @@ nav {
 .cont3 {
     height: 379px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .cont3 .sub {
@@ -104,11 +106,11 @@ nav {
 .cont3 .sub .box3 {
     background-color: darkgrey;
     width: 85%;
-    height: 20px;
-    margin: 5px auto;
+    height: 40px;
+    margin: 10px auto;
 }
 
 .cont3 .sub .box3:nth-child(1) {
     height: 250px;
-    margin-top: 25px;
+    margin-top: 40px;
 }
